@@ -3,12 +3,13 @@
     margin: auto;
     height: 250px;
   /*  overflow: scroll;
-    width: 100%;*/
+    width: 100%;
     margin-left: 30%;
-    margin-left: 0px;
+    margin-left: 0px; */
     text-align: center;
     font-weight: bold;
     font-size: 1.2rem;
+    overflow-y: scroll;
 }
 
 @media (min-width:500px)and(min-height:400px){
