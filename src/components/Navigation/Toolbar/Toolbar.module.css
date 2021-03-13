@@ -26,4 +26,10 @@
     .DesktopOnly {
         display: none;
     }
+    .Logo{
+        margin-right: -3px;
+    }
+    .Toolbar{
+        justify-content: space-between;
+    }
 }
