@@ -17,6 +17,12 @@
         width: 75%;
     }
 }
+@media (min-width:301px) and (max-width:399px){
+    .Burger{
+        width: 100%;
+    }
+}
+
 
 @media (min-width:500px)and(min-height:400px){
     .Burger {
