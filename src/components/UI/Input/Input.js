@@ -3,11 +3,11 @@ import classes from './Input.module.css';
 
 const input = (props) => {
     let inputElement = null;
-
+   // console.log(props,"props")
     switch ( props.elementType ){
         case ( 'input' ):
             inputElement = <input 
-                key={props.value}
+                key={props.key}
                 className={classes.InputElement}
                 {...props.elementConfig}              
                 value={props.value}
